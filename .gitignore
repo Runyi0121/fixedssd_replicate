@@ -1,0 +1,16 @@
+# Local environment (rebuilt by run.sh)
+.venv/
+
+# Participant data
+data/
+
+# Created by the server at runtime
+/static
+expfactory_deploy_local/src/expfactory_deploy_local/sessions_*/
+expfactory_deploy_local/src/expfactory_deploy_local/static/experiments/*
+!expfactory_deploy_local/src/expfactory_deploy_local/static/experiments/README.txt
+!expfactory_deploy_local/src/expfactory_deploy_local/static/experiments/.empty
+
+__pycache__/
+*.egg-info/
+.DS_Store
